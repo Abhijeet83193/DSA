@@ -1,6 +1,6 @@
 import java.util.*;
 public class arrays {
-    //input
+    
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); 
         int marks[] = new int[100];
@@ -12,9 +12,18 @@ public class arrays {
         marks[2] = sc.nextInt();
         int avg;
         avg = (marks[0]+marks[1]+marks[2])/3;
-    //output
         System.out.println("average marks is : "+avg);
-        sc.close();
+        sc.close(); 
 
-    }
+        // length of array
+        System.out.println(marks.length);
+    
+
+    
+
+    
+        }
+
+
 }
+
