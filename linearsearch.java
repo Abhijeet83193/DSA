@@ -20,7 +20,7 @@ public class linearsearch {
         Scanner sc = new Scanner(System.in);
         System.out.println("fruits ke bucket ka size : "); 
         int n = sc.nextInt();
-                sc.nextLine();
+                
         String fruits[] = new String[n];
         System.out.println(n+" fruits ke nam likhiye : ");
         for(int i=0; i< fruits.length; i++){
